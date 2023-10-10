@@ -9,7 +9,7 @@ app.use(cors());
 
 
 app.get('/budget', (req, res) => {
-  const samp=require('/mydata.json')
+  const samp=require('./mydata.json');
   res.json(samp);
 });
 

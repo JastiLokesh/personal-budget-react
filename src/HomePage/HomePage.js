@@ -87,7 +87,7 @@ function BarChart() {
 }
 
 function HomePage() {
-    const [budgetData, setBudgetData] = useState([]);
+    const [myBudget, setBudgetData] = useState([]);
     const d3Container = useRef(null);
     const chartRef = useRef(null);
 
